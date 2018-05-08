@@ -4,5 +4,7 @@
     border-radius: 50%;
     position: absolute;
     color: black;
-    background-color: currentColor;
+    box-shadow:
+        150px 240px 0 0 currentColor,
+        300px 240px 0 0 currentColor;
 }
