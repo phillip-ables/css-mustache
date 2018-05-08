@@ -11,8 +11,10 @@
 .mustache::before {
     content: " ";
     position: absolute;
+    left: 30px;
+    top: 120px;
     width: 210px;
     height: 120px;
     border-bottom: solid 180px currentColor;
-    background-color: red;
+    border-radius:0 0 0 100%;
 }
