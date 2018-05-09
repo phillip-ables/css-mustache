@@ -1,6 +1,7 @@
 ﻿.mustache{
     width: 180px;
     height: 180px;
+    left: 100px;
     border-radius: 50%;
     position: absolute;
     color: black;
@@ -19,4 +20,16 @@
     border-radius:0 0 0 100%;
     transform: rotate(-40deg);
     transform-origin: right 210px;
+}
+.mustache::after {
+    content: " ";
+    position: absolute;
+    left: 390px;
+    top: 120px;
+    width: 210px;
+    height: 120px;
+    border-bottom: solid 180px currentColor;
+    border-radius: 0 0 100% 0;
+    transform: rotate(40deg);
+    transform-origin: left 210px;
 }
